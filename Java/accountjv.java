@@ -5,4 +5,10 @@ class accountjv  //clase
     String document;
     String email;
     String password; 
+
+    public accountjv (String name, String document)
+    {
+        this.name = name;
+        this.document = document;
+    }
 }
